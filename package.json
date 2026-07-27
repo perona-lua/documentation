@@ -7,7 +7,8 @@
     "name": "Perona",
     "github": {
       "organiztionName": "perona-lua",
-      "projectName": "documentation"
+      "projectName": "documentation",
+      "branch": "prod"
     }
   },
   "scripts": {

@@ -16,6 +16,7 @@ const config: Config = {
   baseUrl: '/',
   organizationName: pkg.config.github.organiztionName,
   projectName: pkg.config.github.projectName,
+  deploymentBranch: pkg.config.github.branch,
   onBrokenLinks: 'throw',
   i18n: {
     defaultLocale: 'pt',
