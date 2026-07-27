@@ -4,7 +4,11 @@
   "private": true,
   "config": {
     "website": "https://perona.fun",
-    "name": "Perona"
+    "name": "Perona",
+    "github": {
+      "organiztionName": "perona-lua",
+      "projectName": "documentation"
+    }
   },
   "scripts": {
     "docusaurus": "docusaurus",

@@ -14,8 +14,8 @@ const config: Config = {
   },
   url: pkg.config.website,
   baseUrl: '/',
-  organizationName: 'perona',
-  projectName: pkg.config.name,
+  organizationName: pkg.config.github.organiztionName,
+  projectName: pkg.config.github.projectName,
   onBrokenLinks: 'throw',
   i18n: {
     defaultLocale: 'pt',
