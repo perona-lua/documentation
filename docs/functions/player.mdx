@@ -1,0 +1,107 @@
+---
+id: player
+title: Player
+description: Funções do player
+tags: [player]
+last_update:
+    date: 2026/08/27
+---
+
+```lua
+--- @return CharacterClassType
+function Player.getCharacterClassType() end
+
+--- @return string
+function Player.getCharacterClassTypeName() end
+
+--- @return integer
+function Player.getLevel() end
+
+--- @return integer
+function Player.getMasterLevel() end
+
+--- @return integer
+function Player.getTotalLevel() end
+
+--- @return string
+function Player.getName() end
+
+--- @return integer
+function Player.getHealth() end
+
+--- @return integer
+function Player.getMana() end
+
+--- @return integer
+function Player.getMaxHealth() end
+
+--- @return integer
+function Player.getMaxMana() end
+
+--- @return integer
+function Player.getSD() end
+
+--- @return integer
+function Player.getAG() end
+
+--- @return integer
+function Player.getMaxSD() end
+
+--- @return integer
+function Player.getMaxAG() end
+
+--- @return integer
+function Player.getHealthPercent() end
+
+--- @return integer
+function Player.getManaPercent() end
+
+--- @return integer
+function Player.getSDPercent() end
+
+--- @return integer
+function Player.getAGPercent() end
+
+--- @param hotkey "q"|"w"|"e"|"r"     # Passe a hotkey da poção que você vai usar.
+--- @return boolean # True - Consumido, False - Não foi possível consumir.
+function Player.usePotion(hotkey) end
+
+--- @return boolean # Verifica se o jogador está usando alguma skill.
+function Player.isAttacking() end
+
+--- @return boolean # Verifica se o jogador está andando.
+function Player.isWalking() end
+
+--- @param index integer # Skill Index
+--- @return boolean
+function Player.setCurrentSkill(index) end
+
+--- @param slot "q"|"w"|"e"|"r"
+--- @return integer
+function Player.getPotionAmount(slot) end
+
+--- @return integer
+function Player.getCurrentxperience() end
+
+--- @return integer
+function Player.getNextExperience() end
+
+--- @return integer
+function Player.getExperienceBar() end
+
+--- @return integer
+function Player.getExperiencePercent() end
+
+--- @return integer
+function Player.getPointsOf3thTree() end
+
+--- @return integer
+function Player.getRuud() end
+
+--- @return integer
+function Player.getZen() end
+
+-- Não é aconselhado usar essa função. Todos os potions que você tiver no inventário será usado.
+-- @return nil
+-- function Player.useAllPotions() end
+```

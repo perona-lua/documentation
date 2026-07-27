@@ -1,0 +1,100 @@
+---
+id: client
+title: Client
+description: Funções do client
+tags: [client]
+last_update:
+    date: 2026/08/27
+---
+
+```lua
+--- @param value integer - Valor do zoom
+--- @return boolean
+function Client.setCamZoom(value) end
+
+--- @return boolean
+function Client.isLoginScree() end
+
+--- @return boolean
+function Client.isCharacterSelect() end
+
+--- @return boolean
+function Client.setHoldCtrl() end
+
+--- Internamente o Helper só vai ativar ou desativar caso o valor passado seja diferente do atual.
+--- Se o helper já estiver ativado a função só vai ignorar a chamada.
+--- @param stats boolean
+--- @return boolean
+function Client.setHelper(stats) end
+
+--- @return boolean
+function Client.getHelperStats() end
+
+--- @return boolean
+function Client.getItem() end
+
+--- @return PlayerState
+function Client.getPlayerState() end
+
+--- É o eixo X da tela
+--- @param x integer
+--- @return boolean
+function Client.setCursorX(x) end
+
+--- É o eixo Y da tela
+--- @param y integer
+--- @return boolean
+function Client.setCursorY(y) end
+
+--- @return string
+function Client.getLogin() end
+
+--- @return integer
+function Client.getChannel() end
+
+--- @return ChannelType
+function Client.getChannelType() end
+
+--- @return string
+function Client.getServerName() end
+
+--- @return integer
+function Client.getScreenWidth() end
+
+--- @return integer
+function Client.getScreenHeight() end
+
+--- @return string
+function Client.getResolution() end
+
+--- 0 = 800x600
+--- 1 = 1024x768
+--- 2 = 1152x864
+--- 3 = 1280x720
+--- 4 = 1280x1024
+--- 5 = 1600x900
+--- 6 = 1600x1200
+--- 7 = 1680x1050
+--- 8 = 1920x1080
+--- 9 = 2560x1440
+--- @return integer
+function Client.getDisplayDeviceIndex() end
+
+--- @return boolean
+function Client.setMouseLeftClick() end
+
+--- @return boolean
+function Client.setMouseRightClick() end
+
+--- @param keycode Keycode
+--- @return boolean
+function Client.isPress(keycode) end
+
+--- @param keycode Keycode
+--- @return boolean
+function Client.isPressed(keycode) end
+
+--- @param keycode Keycode
+--- @return boolean
+function Client.isReleased(keycode) end
+```

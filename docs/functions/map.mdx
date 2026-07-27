@@ -1,0 +1,32 @@
+---
+id: map
+title: Map
+description: Funções do map
+tags: [map]
+last_update:
+    date: 2026/08/27
+---
+
+```lua
+--- @return MapIndex # Retorna o Index do mapa
+function Map.getId() end
+
+--- @return integer # Retorna a cordenada X atual
+function Map.getX() end
+
+--- @return integer # Retorna a cordenada Y atual
+function Map.getY() end
+
+--- @return boolean
+function Map.isSafeZone() end
+
+--- @param x integer
+--- @param y integer
+--- @return boolean
+function Map.goTo(x, y) end
+
+--- 0 = Jogador chegou no destino.
+--- -1 = Ocorreu algum erro interno
+--- @return integer
+function Map.getGoToDistance() end
+```

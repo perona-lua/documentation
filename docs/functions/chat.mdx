@@ -1,0 +1,52 @@
+---
+id: chat
+title: Chat
+description: Funções do Chat
+tags: [chat]
+last_update:
+    date: 2026/08/27
+---
+
+```lua
+---@param message string
+---@return boolean
+function Chat.send(message) end
+
+--- Mesma coisa do Chat.send, a diferença é que você não precisa adicionar / para chamar os comandos
+---@param message string
+---@return boolean
+function Chat.command(message) end
+
+---@param message string
+---@return boolean
+function Chat.post(message) end
+
+---@param message string
+---@return boolean
+function Chat.guild(message) end
+
+---@param message string
+---@return boolean
+function Chat.alliance(message) end
+
+---@param message string
+---@return boolean
+function Chat.party(message) end
+
+---@param message string
+---@return boolean
+function Chat.gens(message) end
+
+---@param key "0" | "1" |"2" | "3" |"4" | "5" |"6" | "7" |"8" | "9"
+---@return boolean
+function Chat.useMacro(key) end
+
+--- @param key "0" | "1" |"2" | "3" |"4" | "5" |"6" | "7" |"8" | "9"
+---@param message string
+---@return boolean
+function Chat.setMacroText(key, message) end
+
+--- Pegar a última mensagem enviada.
+---@return boolean
+function Chat.getLastMessage() end
+```
