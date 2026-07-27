@@ -8,6 +8,7 @@ const config: Config = {
   title: pkg.config.name,
   tagline: '👻👻👻',
   favicon: 'img/favicon.ico',
+  trailingSlash: true,
   future: {
     v4: true,
   },
