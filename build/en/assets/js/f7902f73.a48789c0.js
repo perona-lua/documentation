@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkperona=self.webpackChunkperona||[]).push([["864"],{9189(a){a.exports=JSON.parse('{"tag":{"label":"map","permalink":"/documentation/en/tags/map","allTagsPath":"/documentation/en/tags","count":1,"items":[{"id":"functions/map","title":"Map","description":"Fun\xe7\xf5es do map","permalink":"/documentation/en/functions/map"}],"unlisted":false}}')}}]);
