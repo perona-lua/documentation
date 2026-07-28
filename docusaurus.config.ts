@@ -13,7 +13,7 @@ const config: Config = {
     v4: true,
   },
   url: pkg.config.website,
-  baseUrl: '/',
+  baseUrl: '/documentation/',
   organizationName: pkg.config.github.organiztionName,
   projectName: pkg.config.github.projectName,
   deploymentBranch: pkg.config.github.branch,
