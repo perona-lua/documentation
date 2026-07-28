@@ -1,0 +1,8 @@
+{
+  "label": "╰┈➤ ⌞ᴜᴛɪʟs⌝",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Funções exportados do Rust para o Lua para ajudar no desenvolvimento dos projetos."
+  }
+}

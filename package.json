@@ -8,7 +8,7 @@
     "github": {
       "organiztionName": "perona-lua",
       "projectName": "documentation",
-      "branch": "gh-pages"
+      "branch": "main"
     }
   },
   "scripts": {

@@ -1,8 +1,8 @@
 {
-  "label": "⤷ ғᴜɴᴄ̧ᴏ̃ᴇs",
-  "position": 2,
+  "label": "╰┈➤ ⌞ғᴜɴᴄ̧ᴏ̃ᴇs⌝",
+  "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "Documentação de todas as funções que a Perona exporta para o Lua. Pedido de função? Achou algum bug? Envie uma mensagem em nosso discord (https://perona.fun/discord)"
+    "description": "Documentação de todas as funções que a perona exporta do Mu para o Lua. Pedido de função? Achou algum bug? Envie uma mensagem em nosso discord (https://perona.fun/discord)"
   }
 }
